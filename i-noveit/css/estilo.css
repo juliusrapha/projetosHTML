@@ -1,0 +1,478 @@
+/*!
+ * @author: Julius Raphael
+ * @tecnology: Cascanding StyleSheet
+ * @version: 3.0.0
+ * @Date: 26 / 12/ 2023
+**/
+
+/*-------------------formatacoa para o body-----------------------*/
+body {
+    font-family: 'Bahnschrift';
+    max-width: 1250px;
+    word-wrap: break-word;
+}
+
+
+/*------------------formatacao para o cabecalho---------------------*/
+#cabecalho {
+    position: relative;
+    width: 1400px;
+}
+
+#cabecalho img#logo {
+    width: 400px;
+    height: 50px;
+}
+
+a.lang {
+    position: relative;
+    top: -50px;
+    left: 85%;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*------------------------formtacao para o menu-------------------*/
+nav#menu ul {
+    position: absolute;
+    list-style: none;
+    top: 10px;
+    left: 600px;
+}
+
+nav#menu ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+nav#menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+nav#menu li:hover a {
+    color: rgb(128,183,63);
+}
+
+nav#menu ul li a:active {
+    color: rgb(128,183,63);
+}
+
+
+/*-----------------------formatacao para os Titulos "h1, h2, h3, h4, ...--------"*/
+h1.pri-title, h2.pri-title {
+    text-align: center;
+}
+
+.cor-texto-verde {
+    color: rgb(128,183,63);
+}
+/*------------------formatacao do banner------------*/
+div#banner-images {
+    width: 1350px;
+    position: relative;
+}
+
+.banners > img {
+    width: 1250px;
+}
+
+/*-----------------------formatacao da div#containerProdutos-----------------*/
+div#containerProdutos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.produtos {
+    width: 400px;
+    height: 250px;
+    /*background-color: rgba(0,0,0,0.1);*/
+    text-align: justify;
+    padding: 6px;
+    position: relative;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+
+div.produtos img {
+    position: relative;
+    width: 86px;
+    height: 86px;
+    margin-left: 140px;
+    margin-bottom: 0;
+}
+
+div.produtos img.resize {
+    width: 100px;
+    height: 86px;
+}
+
+div.produtos h2 {
+    text-align: center;
+    color: rgb(128,183,63);
+    margin-top: 0;
+}
+
+a.link-azul {
+    text-decoration: none;
+    background-color: rgba(36, 100, 240, 0.966);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 10pt;
+    padding: 3px;
+}
+
+p.link-meio-contacto {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 500;
+}
+
+a.link-contacte {
+    font-size: 30pt;
+    color: #000;
+    text-decoration: none;
+}
+
+/*-----------------------formatacao para div#internet-dados-servicos-----------------*/
+div#containerIDS {
+    background-color: rgb(128,183,63);
+    height: 800px;
+    padding-top: 20px;
+}
+
+div#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.servico {
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 5px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+div.servico li {
+    list-style: circle;
+}
+
+div#containerIDS h2,h3 {
+    text-align: center;
+}
+
+div#containerIDS h3 {
+    color: #fff;
+}
+
+
+/*-----------------------------formatacao do container RSM-------------------*/
+div#containerRSM {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 50px;
+}
+
+div#containerRSM > h2 {
+    margin-bottom: 0;
+} 
+
+div.rsm img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+div.rsm {
+    width: 800px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(128,183,63);
+    padding: 10px;
+    font-weight: lighter;
+}
+
+div.rsm > h2 {
+    margin-top: 0;
+}
+
+/*------------------------formatacao do containerFundo-escuro-azul---------------*/
+div#fundo-escuro-azul {
+    background-color: rgb(0, 32, 67);
+    text-align: center;
+    height: 550px;
+    color: #fff;
+    font-weight: lighter;
+    position: relative;
+}
+
+div#justify {
+    width: 400px;
+    text-align: justify;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+div#fundo-escuro-azul img#ussd {
+    width: 350px;
+    height: 350px;
+    float: right;
+    position: absolute;
+    top: 70px;
+    left: 780px;
+}
+
+div#justify h2,h3 {
+    text-align: center;
+}
+
+span.mcel {
+    color: rgb(19, 74, 69);
+    font-weight: bold;
+}
+span.movitel {
+    color: rgb(136, 106, 34);
+    font-weight: bold;
+}
+span.voda {
+    color: rgb(90, 25, 47);
+    font-weight: bold;
+}
+
+div#justify > ul {
+    margin-bottom: 50px;
+} 
+
+div#justify > p > a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 18pt;
+}
+
+/*--------------------------------formatacao do containerES----------------------*/
+div#containerES {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 50px;
+}
+
+div#containerES > h2 {
+    margin-bottom: 0;
+} 
+
+div.suporte a {
+    color: #000000;
+}
+
+div.es img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+div.es {
+    width: 800px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(128,183,63);
+    padding: 10px;
+    font-weight: lighter;
+}
+
+div.es > h2 {
+    margin-top: 0;
+}
+
+/*------------------------=formatacao para PROJECTOS SOCIAIS--------------------*/
+div#containerPS {
+    height: 600px;
+    background-color: rgb(19, 38, 73);
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 150px;
+}
+
+div#text {
+    width: 450px;
+    text-align: justify;
+    float: right;
+    margin-right: 100px;
+    font-weight: lighter;
+    line-height: 3ex;
+}
+
+div#text h2 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+div#text > p > a {
+    background-color: rgb(66, 138, 245);
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+/*---------------------formatacao para PARCEIROS-------------------*/
+div#parceiros-titulos {
+    text-align: center;
+}
+
+div#parceiros {
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+    /*border: 1px solid #000000;*/
+}
+
+
+
+div.logo > img {
+    width: 120px;
+    height: 60px;
+}
+
+div.logos {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(128,183,63);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+/*---------------------formatacao para CLIENTES--------------------*/
+div#clientes-titulos {
+    text-align: center;
+}
+
+div#clientes {
+    float: right;
+    width: 40%;margin-right: 80px;
+    /*border: 1px solid #000000;*/
+}
+
+div.column {
+    position: relative;
+    width: 120px;
+    height: 60px;
+    margin: 8px;
+}
+
+div.column > .logo {
+    position: absolute;
+    transition-duration: 2s;
+    box-sizing: inherit;
+}
+
+div.logo img {
+    transition-duration: 2s;
+    transform-origin: left;
+}
+
+div.column > .index {
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(127, 183, 63, 0.7);
+    border: 5px solid rgba(127, 183, 63, 0.5);
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition-duration: 0.5s;
+    box-sizing: inherit;
+}
+
+/* para rotacao do index */
+div.column:hover .index {
+    transform: rotateX(0deg); 
+}
+
+div.column:hover div.logo img {
+    transform: scale(1.15);
+}
+
+div.column a:hover {
+    text-decoration: underline;
+}
+.index a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+
+/*--------------------formatacao para TECNOLOGIA-------------------*/
+div#tecnologia-titulos {
+    padding-top: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+div#tecnologia-titulos > h2 {
+    box-sizing: border-box;
+    margin-top: 120px;
+    font-weight: bolder;
+}
+
+div#tecnoligias {
+    clear: both;
+    position: relative;
+    width: 800px;
+}
+div.logos-tecnologia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    border: 1px solid rgb(128,183,63);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+div.imageBox {
+    margin: 10px;
+    width: 130px;
+    height: 70px;
+}
+div.imageBox img {
+    width: 130px;
+    height: 70px;
+}
+

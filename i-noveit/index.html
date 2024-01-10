@@ -1,0 +1,499 @@
+<!--
+/*!
+ * @author: Julius Raphael 
+ * @language: Hypertext Markup Language
+ * @version: v5.0.0
+ * @Date: 26 / 12/ 2023
+**/
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i-noveIT</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="javascript/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="imagens/logo.png" alt="logo da i-noveIT" id="logo">
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#products">Produtos e Serviços</a></li>
+                <li><a href="#containerPS">Projectos Sociais</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="https://www.inove-it.com/?page_id=2">Sobre nós</a></li>
+                <li><a href="#clientes">Contactos</a></li>
+            </ul>
+        </nav>
+    <a href="#" class="lang">PT | EN</a>
+    </header>
+    
+    <div id="banner-images">
+        <div class="banners">
+            <img src="imagens/Banner-1.1-min-1-1600x600.png" id="fundo-banner">
+        </div>       
+    </div>
+
+    <h1 id="products" class="pri-title">Os nossos Produtos e Serviços</h1>
+    <h2 class="cor-texto-verde pri-title">somos o seu balcão único de soluções em informática </h2>
+
+    <div id="containerProdutos">
+
+        <div class="produtos">
+            <img src="imagens/Internet-dados-e-serviços-86x86.png" alt="Internet-dados-e-serviços">
+            <h2>Internet, Dados e Serviços</h2>
+            <p>
+                Adquira pacotes de <strong>Internet dedicada, linhas alugadas</strong> e <strong>VPN's</strong>. Fornecemos também
+                serviços associados à Internet como o <strong>E-mail, Alojamento web, Internet gateways</strong> 
+                e <strong>Sistemas de Billing em Hotspots Wi-Fi</strong>. <a href="#containerIDS" class="link-azul">Leia mais&gt;</a> 
+            </p>
+        </div>
+
+        <div class="produtos">
+            <img src="imagens/Rede_Seguranca_Monitoramento.png" class="resize">
+            <h2>Rede, Segurança e Monitoramento</h2>
+            <p>
+                Instalamos <strong>redes de computadores</strong> cabeadas e sem fio ( <strong>Wi-Fi</strong> ) 
+                incluindo configuração dos equipamentos. De rede. Fornecemos soluções de <strong>segurança</strong> e 
+                <strong>monitoramento</strong> (NMS) da infraestrutura IT. <a href="#containerRSM" class="link-azul">Leia mais&gt;</a> 
+            </p>
+        </div>
+
+        <div class="produtos">
+            <img src="imagens/servico-de-telefonia-Movel-86x86.png" alt="servicos de telefonia">
+            <h2>Serviços SMS e USSD</h2>
+            <p>
+                Fornecemos Serviços de Bulk SMS, SMS Marketing, <strong>OTP SMS</strong> e <strong>USSD</strong> para instituições 
+                financeiras e outras. <a href="#fundo-escuro-azul" class="link-azul">Leia mais&gt;</a>
+            </p>
+        </div>
+
+        <div class="produtos">
+            <img src="imagens/Desenvolvimento-de-Aplicações_updated-86x86.png">
+            <h2>Desenvolvimento de Aplicações</h2>
+            <p>
+                Desenvolvemos aplicações à medida para ambientes Web, Desktop e Mobile. 
+            </p>
+        </div>
+
+        <div class="produtos">
+            <img src="imagens/Fornecimento de Equipamentos.png" class="resize">
+            <h2>Produtos Tecnológicos</h2>
+            <p>
+                Fornecemos equipamentos tais como: switches, routers, access points, firewalls, 
+                telefones, tablets, dentre outros. <a href="#produtos-tecnologicos" class="link-azul">Leia mais &gt;</a>
+            </p>
+        </div>
+
+        <div class="produtos suporte">
+            <img src="imagens/Suporte_Informatica.png">
+            <h2>Suporte em Informática</h2>
+            <p>
+                Suporte total e consultoria em informática nas componentes de <strong>rede, hardware</strong> 
+                e <strong>software</strong>. <a href="#infor-suporte" class="link-azul">Leia Mais &gt;</a>
+            </p>
+        </div>
+    </div>
+
+    <p class="link-meio-contacto"><a href="#" class="link-contacte">
+        Contacte-nos</a> para o apuramento da sua real necessidade
+        em Informática. É  <br/> gratuito.
+    </p>
+
+
+    <!--==========================INTERNET == DADOS == SERVICOS =====================-->
+    <div id="containerIDS">
+
+        <h2>Internet, Dados e Serviços</h2>
+        <h3>mais do que uma ligação de acesso à Internet, uma solução integrada</h3> 
+        <div id="flex">
+            <div class="servico">
+                <h2>Serviço Internet</h2>
+                <ul>
+                    <li>Pacotes de Internet Empresarial Dedicada; </li>
+                    <li>Internet Gateways para gestão do acesso à Internet; </li>
+                    <li>Instalação de Firewalls para o controle e proteção do acesso à Internet;</li>
+                    <li>Ligações VPNs: Uma VPN habilita o acesso seguro à serviços da rede, a partir de fora do escritório</li>
+                </ul>
+            </div>
+
+            <div class="servico">
+                <h2>Serviço de E-mail e Alojamento Web</h2>
+                <ul>
+                    <li>
+                        Fornecemos serviço de <strong>E-mail moderno e seguro</strong>, com hospedagem local ou na Cloud, com acesso via 
+                        Web e/ou Outlook e baseado em diferentes tecnologias incluindo Google;
+                    </li>
+                    <li>Fornecemos serviço de <strong>Alojamento de páginas Web</strong> estáticas e dinâmicas</li>
+                </ul>
+            </div>
+
+            <div class="servico">
+                <h2>Gestão de Hotspot</h2>
+                <p>
+                    A nossa solução de gestão de Hotspot visa controlar o acesso à Internet em redes Wi-Fi 
+                    Hotspots através de emissão de senhas de acesso baseadas em tempo de uso e no consumo (Megabytes). 
+                </p>
+            </div>
+
+            <div class="servico">
+                <h2>Comunicações Ponto-a-Ponto </h2>
+                <p><strong>Circuitos alugados:</strong> Fornecemos linhas alugadas para a interligação entre dois escritórios distantes.</p>
+                <p><strong>Ligações VPNs:</strong> As VPNs visam prover acesso seguro de serviços da rede, a partir de fora do escritório.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--======================== REDE == SEGURANCA == MONITORAMENTO =====================-->
+    <div id="containerRSM">
+        <h2>Rede, Segurança e Monitoramento</h2>
+        <h3 class="cor-texto-verde">mais do que uma rede, uma auto-estrada segura de informação</h3>
+
+        <div class="rede rsm">
+            <img src="imagens/Redes_de_computadores.png" alt="">
+            <h2>Redes de computadores</h2>
+            <p>
+                Uma rede de computadores é mais do que um conjunto de equipamentos ligados por cabos, na medida 
+                em que toda a rede precisa ser <strong>eficiente</strong> e <strong>segura</strong> para que tenha impacto na sua produtividade. 
+                Dimensionamos e instalamos redes de computadores cabeadas e Wi-Fi em escritórios e Datacenters
+            </p>
+        </div>
+
+        <div class="security rsm">
+            <img src="imagens/Seguranca_Informatica.png" alt="">
+            <h2>Segurança Informática</h2>
+            <p>Fazemos auditoria de segurança em sistemas informáticos e instalamos mecanismos de proteção através de <strong>firewalls</strong> e <strong>antivírus</strong>. </p>
+        </div>
+
+        <div class="sistema rsm">
+            <img src="imagens/Rede_Seguranca_Monitoramento.png" alt="">
+            <h2>Sistemas de Monitoramento</h2>
+            <p>
+                Todo o equipamento e serviço informático precisa de um olho permanente; 
+                Identifique e <strong>antecipe os desastres</strong> na sua infraestrutura informática. Os nossos sistemas 
+                de monitoramento são baseados em Web e enviam notificações sobre avarias aos Técnicos 
+                de informática e Gestores através de <strong>Email</strong> e/ou <strong>SMS</strong> 24/7. 
+            </p>
+        </div>
+    </div>
+
+    <!--======================== SERVICOS == SMS == USSD =====================-->
+    <div id="fundo-escuro-azul">
+        <div id="justify">
+            <h2>Serviços SMS e USSD</h2>
+            <h3 class="cor-texto-verde">conecte-se a mais de 10 milhões de clientes</h3>
+            <img src="imagens/Ussd_sms.png" id="ussd">
+            <p>
+                Estamos ligados a todas as operadoras de telefonia móvel de Moçambique (<span class="mcel">Mcel</span>, <span class="movitel">Movitel</span> 
+                e <span class="voda">Vodacom</span>) 
+                por forma a lhe prover serviços de valor acrescentado baseados em SMS e USSD. Esta tecnologia 
+                pode prover serviços como:
+            </p>
+            <ul>
+                <li><span class="cor-texto-verde">Serviços SMS:</span> Bulk SMS; SMS Marketing; OTP SMS</li>
+                <li>
+                    <span class="cor-texto-verde">Serviços USSD:</span> Esta tecnologia é usada em produtos inovadores por instituições como 
+                    <span class="cor-texto-verde">Bancos, Seguradoras</span> e para efeitos de <span class="cor-texto-verde">Inquéritos</span>. A nossa solução USSD contempla desenvolvimento da 
+                    aplicação e o lançamento do serviço.
+                </li>
+            </ul>
+            <p><a href="#">Contacte-nos</a> para lhe pormos em contacto com os Utilizadores de telefonia móvel de forma rápida, eficiente e inovadora.</p>
+        </div>
+    </div>
+
+    <!-- ###################### DIV EQUIPAMENTOS E SUPORTES ##################-->
+    <div id="containerES">
+
+        <h2>Equipamentos & Suporte</h2>
+        <h3 class="cor-texto-verde">cuidamos da sua informática, enquanto você cuida do seu negócio</h3>
+
+        <div id="produtos-tecnologicos" class="equip-fornecimento es">
+
+            <img src="imagens/Fornecimento de Equipamentos.png" alt="">
+            <h2>Fornecimento de Equipamentos</h2>
+            <p>
+                Fornecemos equipamentos tecnológicos tais como, <strong>telefones celulares, tablets, servidores, routers, 
+                switches, firewall, computadores</strong>. Confira algumas marcas com que trabalhamos na secção sobre 
+                Tecnologias. Submeta o seu pedido de cotação 
+            </p>
+        </div>
+
+        <div id="infor-suporte" class="suporte es">
+            <img src="imagens/Suporte_Informatica.png" alt="">
+            <h2>Suporte em Informática</h2>
+            <p>
+                Fornecemos serviços de suporte à sua <strong>Infraestrutura</strong> e <strong>serviços</strong> de informática, a saber, a rede 
+                de computadores cabeada e Wi-Fi, servidores e desktops, Sistema operativo, aplicativos, 
+                servidores e sistemas de segurança lógica.<a href="#"> Contacte-nos</a> para mais.
+            </p>
+        </div>
+    </div>
+
+    <!--======================== PORJECTOS == SOCIAIS ========================-->
+    <div id="containerPS">
+        <div id="text">
+            <h2 class="cor-texto-verde">Projectos Sociais</h2>
+            <p class="cor-texto-verde">sozinhos ganhamos jogos, juntos ganhamos campeonatos</p>
+            <p>
+                Nao constiui novidade que as tecnologias de informação conjugadas ao acesso à Internet
+                desempenham um papel fundamental no desenvolvimento do capital humano de qualquer &nbsp; sociedade.
+                <a href="https://openknowledge.worldbank.org/handle/10986/16680">Leia mais&gt;</a>
+            </p>
+            
+            <p>
+                Estamos orgulhosamente envolvidos na concepção e implementação de projectos, baseados em TIC's,
+                com impacto positivo nas comunidades vulneráveis. Temos Participado na implementação de projectos
+                sociais, como enfoque às áreas de <strong><span class="cor-texto-verde">educação</span></strong> e 
+                <strong><span class="cor-texto-verde">saúde.</span></strong>
+            </p>
+
+            <p>
+                Seja sua instituição de natureza de um <strong><span class="cor-texto-verde">Financiador, ONG, 
+                Entidade Governamental</span></strong> ou simplesmente um <strong><span class="cor-texto-verde">
+                Entusiasta</span></strong>, contacte-nos para juntos usarmos as novas tecnologias para 
+                <strong><span class="cor-texto-verde">melhorar a vida das populações</span></strong>. A união faz a força!
+            </p>
+        </div>
+    </div>
+
+    <!-- ============================ PARCEIROS =========================-->
+    <div id="parceiros">
+        <div id="parceiros-titulos">
+            <h2 class="cor-texto-verde">Parceiros</h2>
+            <p class="cor-texto-verde">Temos orgulho de trabalhar com os seguintes parceiros:</p>
+        </div>
+        
+        <div class="logos">
+
+            <div class="column">
+                <div class="logo mcel">
+                    <img src="imagens/parceiros/mcel.jpg" alt="Mcel">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.mcel.co.mz" target="_blank">MCEL</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo voda">
+                    <img src="imagens/parceiros/vm.jpg" alt="Vodacom">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.vm.co.mz" target="_blank">VODACOM</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo movitel">
+                    <img src="imagens/parceiros/movitel.png" alt="Movitel">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.movitel.co.mz" target="_blank">MOVITEL</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo dotcom">
+                    <img src="imagens/parceiros/dotcom.png" alt="dotcom">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.dotcomerp.co.mz" target="_blank">DOTCOM</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo internet-working">
+                    <img src="imagens/parceiros/Internetworking_Consultants_Logo-min.png">
+                </div>
+                <div class="index">
+                    <p>IWC</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo perfect-leap">
+                    <img src="imagens/parceiros/logo-dark-v.png">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.pleapmz.com" target="_blank">PERFECTLEAP</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ============================ CLIENTES =========================-->
+    <div id="clientes">
+        <div id="clientes-titulos">
+            <h2 class="cor-texto-verde">Clientes</h2>
+            <p class="cor-texto-verde">Temos o prazer de servir os seguintes clientes:</p>
+        </div>
+        <div class="logos">
+            
+            <div class="column">
+                <div class="logo termiinus">
+                    <img src="imagens/parceiros/termiinus.png">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.terminus.co.mz">TERMIINUS</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo uba">
+                    <img src="imagens/parceiros/uba.png" alt="Banco UBA">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.ubagroup.com/countries/mz">UBA</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo moz-prevident">
+                    <img src="imagens/parceiros/mocambique_previdente.png" alt="Mocambique Previdente">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.mocambiqueprevidente.co.mz">MOCAMBIQUEP</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo afrin">
+                    <img src="imagens/parceiros/afrin.png" alt="Afrin Hotels">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.afrin-hotels.com">AFRIN</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo uem">
+                    <img src="imagens/parceiros/uem_logo.jpg" alt="Universidade Eduardo Mondlane">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.uem.mz">UEM</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo nyeleti">
+                    <img src="imagens/parceiros/nyleti.png" alt="Nyeleti">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.nyeleti.co.za">NYELETI</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ TECNOLOGIAS =========================-->
+
+    <div id="tecnologias">
+        
+        <div id="tecnologia-titulos">
+            <h2 class="cor-texto-verde">Tecnologias</h2>
+            <p class="cor-texto-verde">Algumas marcas com que trabalhamos: </p>
+        </div>
+        <div class="logos-tecnologia">
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/cisco.jpg">
+                </div>              
+                <div class="index">
+                    <p><a href="https://www.cisco.com" target="_blank">CISCO</a></p>
+                </div>
+            </div>     
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/ubiquiti.png">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.ubnt.com" target="_blank">UBIQUITI</a></p>
+                </div>              
+            </div>
+            
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/mikrotik.png">
+                </div>             
+                <div class="index">
+                    <p><a href="https://www.mikrotik.com" target="_blank">MIKROTIK</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/microsoft.png" >
+                </div>            
+                <div class="index">
+                    <p><a href="https://www.microsoft.com" target="_blank">MICROSOFT</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/linux-1.jpg" alt="LINUX">
+                </div>
+                <div class="index">
+                    <p><a href="https://www.linux.org" target="_blank">LINUX</a></p>
+                </div>              
+            </div>
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/Hp_logo.jpg" alt="HP">
+                </div>              
+                <div class="index">
+                    <p><a href="https://www.hp.com" target="_blank">HP</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/samsung.png" alt="SAMSUNG">
+                </div>              
+                <div class="index">
+                    <p><a href="https://www.samsung.com" target="_blank">SAMSUNG</a></p>
+                </div>
+            </div>    
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/cyberoam.jpg" alt="cyberoam">
+                </div>              
+                <div class="index">
+                    <p><a href="https://www.cyberoam.com" target="_blank">CYBEROAM</a></p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/zabbix_logo_500x131.png" alt="">
+                </div>  
+                <div class="index">
+                    <p><a href="https://www.zabbix.com" target="_blank">ZABBIX</a></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="logo">
+                    <img src="imagens/parceiros/pfsense-logo-1600x398-1-1.png" >
+                </div>  
+                <div class="index">
+                    <p><a href="https://www.pfsense.org" target="_blank">PFSENSE</a></p>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <!-- CARREGAMENTO DE SCRIPT -->
+    <script src="javascript/imagens-banner.js"></script>
+</body>
+</html>

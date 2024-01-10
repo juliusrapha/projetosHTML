@@ -1,0 +1,28 @@
+============ SUCCESS CREATED ACCOUNT ============
+
+SERVER INFO
+-------------------------------------------------
+Server	: SSH UDP AE
+Host	: ae-udp.serverfast.pw
+Type	: udp
+
+
+
+ACCOUNT INFO
+-------------------------------------------------
+Username	: lionssh_fklkrfo
+Password	: 12345
+Expired At	: 2023-12-21 20:22:34
+
+
+OTHER INFORMATIONS
+-------------------------------------------------
+Protocol	: UDP
+UDP Port	: 1-65535
+Status	: Online
+
+
+-------------------------------------------------
+THIS ACCOUNT CREATED BY:
+LionSSH
+https://privatessh.com
